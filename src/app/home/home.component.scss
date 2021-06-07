@@ -1,0 +1,1060 @@
+
+.fixed-button{
+  position: relative;
+  .btn-fix{
+    position: absolute;
+    top: 320px;
+    right:-85px;
+    z-index: 1000;
+    position: fixed !important;
+    transform: rotate(270deg);
+    padding: .5rem 1.6rem;
+  }
+}
+// .................button fixed.......... 
+// ...................Home Styels............ 
+.container-fluid {
+  
+  background-color: black;
+  width: 100%;
+  padding: 0px !important;
+  .carousel {
+    .carousel-inner {
+      .carousel-item {
+        position: relative;
+        .banner_headingone {
+          color: white;
+          position: absolute;
+          top: 100px;
+          left: 400px;
+          font-size: 60px;
+          // font-family: 'Poppins', sans-serif;
+          font-family: 'Times New Roman', Times, serif;
+          font-weight: 600;
+          
+        }
+        .banner_headingtwo {
+          color: white;
+          position: absolute;
+          bottom: 80px;
+          left: 300px;
+          font-size: 40px;
+          font-family: 'Times New Roman', Times, serif;
+
+          // font-weight: 600;
+        }
+        .vedio-sizes {
+          max-width: 100% !important;
+          height: 650px !important;
+          video {
+            object-fit: fill;
+          }
+        }
+        img {
+          height: 650px;
+        }
+      }
+    }
+  }
+}
+
+//   ...........Our brands Styles.............. 
+.car-services {
+  .container-fluid {
+    padding: 0px !important;
+    margin: 0px !important;
+    .bg-color {
+      // background: #323AD1;
+      margin: 0px !important;
+      padding: 0px !important;
+    }
+    .row {
+      .book {
+        color: white;
+        background-image: url("../../assets/hitech_images/images/BLUE\ STRIP.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        padding-top: 1rem;
+        h5 {
+          padding-left: 4rem;
+          font-family: 'Times New Roman', Times, serif;
+
+
+        }
+        p {
+          padding-left: 4rem;
+          font-family: 'Poppins', sans-serif;
+        }
+        .booknow {
+          padding: 5px 10px;
+          background-color: #ffffff;
+          color: black;
+        }
+      }
+    }
+  }
+}
+.All-services {
+  h4 {
+    margin-top: 2rem;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2.5vw;
+    span {
+      position: relative;
+      img {
+        width: 130px;
+        height: 112px;
+        position: absolute;
+        top: 5px;
+      }
+    }
+  }
+  .settings {
+    .line1 {
+      margin-left: 43%;
+      border: 1px solid grey;
+      border-radius: 5px;
+      margin-bottom: 2px;
+      width: 5%;
+      margin-top: -10px;
+      left: 42%;
+      display: inline-block;
+    }
+    .line2 {
+      border: 1px solid grey;
+      border-radius: 5px;
+      margin-bottom: 2px;
+      width: 5%;
+      top: -5px;
+      left: 43%;
+      display: inline-block;
+      margin-left: 0%;
+    }
+  }
+  .carousel {
+    .carousel-inner {
+      .carousel-item {
+        img {
+          width: 10px;
+          height: auto;
+        }
+      }
+    }
+  }
+  .container {
+    .carousel-cell {
+      margin-top: 2rem;
+      margin-right: 2rem;
+      img {
+        width: 175px;
+        height: 135px;
+        padding-left: 1rem;
+      }
+    }
+  }
+}
+
+//   ...........automotive styles............. 
+.exp{
+  background-color: #CBE0FB;
+  .container{
+      padding:10px 10px;
+      .automotive{
+          h4{
+              margin-top: 1rem;
+              font-weight: 700;
+              font-family: 'Times New Roman', Times, serif;
+              font-size: 2.5VW; 
+          }
+          .settings{
+              .line1{
+                  margin-left: 43%;
+                  border: 1px solid grey;
+                  border-radius: 5px;
+                  margin-bottom: 2px;
+                  width: 5%;
+                  margin-top: -10px;
+                  left: 42%;
+                  display: inline-block;
+              }
+              .line2{
+                  border: 1px solid grey;
+                  border-radius: 5px;
+                  margin-bottom: 2px;
+                  width: 5%;
+                  top: -5px;
+                  left: 43%;
+                  display: inline-block;
+                  margin-left: 0%;
+              }
+          }
+      }
+      .row{
+          .car1{
+              width: 100%;
+              border: 2px dashed black;
+              padding: 5px;
+              border-radius: 5px;
+          }
+          .car2{
+              width: 100%;
+              border: 2px dashed black;
+              padding: 5px;
+              border-radius: 5px;
+              margin-top: 5rem;
+          }
+      }
+  }
+}
+//  ................ABout styles............... 
+.about {
+  .container {
+      h4 {
+          margin-top: 1rem;
+          font-weight: 700;
+          font-family: 'Times New Roman', Times, serif;
+          font-size: 2.5vw;
+      }
+      .settings {
+          .line1 {
+              margin-left: 43%;
+              border: 1px solid grey;
+              border-radius: 5px;
+              margin-bottom: 2px;
+              width: 5%;
+              margin-top: -10px;
+              left: 42%;
+              display: inline-block;
+          }
+          .line2 {
+              border: 1px solid grey;
+              border-radius: 5px;
+              margin-bottom: 2px;
+              width: 5%;
+              top: -5px;
+              left: 43%;
+              display: inline-block;
+              margin-left: 0%;
+          }
+      }
+      .row{
+           padding-bottom: 15rem;
+          .about-img {
+              position: relative;
+              img {
+                  position: absolute;
+                  top: -80px;
+                  right: 50px;
+              }
+              .orange1 {
+                  img {
+                      position: absolute;
+                      left: 0px;
+                      top: 50px;
+                      animation: zoom-in-zoom-out 1s infinite;
+                  }
+              }
+              .dotted {
+                  img {
+                      position: absolute;
+                      left: -100px;
+                      top: 550px;
+                      animation: zoom-in-zoom-out 1s infinite;
+                  }
+              }
+              .off-org {
+                  img {
+                      position: absolute;
+                      right: 130px;
+                      top: 280px;
+                      animation: zoom-in 1s infinite;
+                      transform: rotate(50deg) !important;
+                  }
+              }
+              // ........animation............ 
+              @keyframes zoom-in-zoom-out {
+                0% {
+                transform: scale(1, 1);
+                }
+                50% {
+                transform: scale(1.5, 1.5);
+                }
+                100% {
+                transform: scale(1, 1);
+                }
+                }
+
+          }
+      }
+
+  }
+}
+// .............Services styles ................ 
+.services{
+  background-color: #012dd9;
+  color: white;
+  .container{
+      .automotive{
+          padding-top: 1rem;
+          h4{
+              margin-top: 1rem;
+              font-weight: 700;
+              font-family: 'Times New Roman', Times, serif;
+
+              font-size: 2.5VW; 
+          }
+          .settings{
+              .line1{
+                  margin-left: 43%;
+                  border: 1px solid grey;
+                  border-radius: 5px;
+                  margin-bottom: 2px;
+                  width: 5%;
+                  margin-top: -10px;
+                  left: 42%;
+                  display: inline-block;
+              }
+              .line2{
+                  border: 1px solid grey;
+                  border-radius: 5px;
+                  margin-bottom: 2px;
+                  width: 5%;
+                  top: -5px;
+                  left: 43%;
+                  display: inline-block;
+                  margin-left: 0%;
+              }
+          }
+      }
+      .row{
+          padding-top: 4rem;
+          padding-bottom: 1rem;
+          .service-img1{
+              margin-top: 190px;
+              background-color: #FFFFFF;
+              height: 170px;
+              width: 170px;
+              border-radius: 10px;
+              text-align: center;
+              img{
+                  width: 120px;
+                  height: 120px;
+                  margin-top: 1.5rem;
+              }
+          }
+          .service-img2{
+              background-color: #FFFFFF;
+              height: 170px;
+              width: 170px;
+              border-radius: 10px;
+              text-align: center;
+              img{
+                  width: 120px;
+                  height: 120px;
+                  margin-top: 1.5rem;
+              }
+          }
+          .service-text{
+              text-align: center;
+              font-size: 13px;
+              margin-bottom: 1rem;
+              margin-top: 1rem;
+          }
+          button{
+              text-decoration: none;
+              text-transform: uppercase;
+              border-radius: 10px;
+              margin-top: -3%;
+              padding: 7px 25px;
+              margin-left: 35px;
+              left: 10%;
+              font-size:10px;
+              background-color: #FF3547 !important;
+              a{
+                  text-decoration-line: none;
+                  font-family: 'Poppins', sans-serif;
+              }
+          }
+ 
+      }
+  }
+}
+
+// .................Certification styles ............
+.affiliates {
+  .container {
+    .automotive {
+      padding-top: 1rem;
+      h4 {
+        margin-top: 1rem;
+        font-weight: 700;
+        font-family: 'Times New Roman', Times, serif;
+
+        font-size: 2.5vw;
+      }
+      .settings {
+        .line1 {
+          margin-left: 43%;
+          border: 1px solid grey;
+          border-radius: 5px;
+          margin-bottom: 2px;
+          width: 5%;
+          margin-top: -10px;
+          left: 42%;
+          display: inline-block;
+        }
+        .line2 {
+          border: 1px solid grey;
+          border-radius: 5px;
+          margin-bottom: 2px;
+          width: 5%;
+          top: -5px;
+          left: 43%;
+          display: inline-block;
+          margin-left: 0%;
+        }
+      }
+    }
+    .about-HTech {
+      h4 {
+        color: #323ad1;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 25px !important;
+        font-weight: 600;
+        margin-top: 20px;
+      }
+      p {
+        font-size: 14px;
+        line-height: 25px;
+        margin-bottom: 15px;
+      }
+      .car-animation {
+        position: relative;
+        .row {
+          text-align: center;
+          margin-top: 7rem;
+          .newYork {
+            .year {
+              color: #e41539;
+              font-size: 20px;
+              font-weight: 600;
+              text-align: center;
+            }
+          }
+          .points {
+            position: relative;
+            // position: relative;
+            // margin: 10px auto;
+            border-color: pink;
+            width: 155px;
+            border: 1px dotted pink;
+            transform: rotate(90deg);
+            left: 135px;
+            top: -35px;
+            z-index: -199;
+            .circle1 {
+              position: absolute;
+              top: 12px;
+              left: -30px;
+              right: 100px;
+              height: 25px;
+              position: absolute;
+              margin-top: -25px;
+              margin-left: 14px;
+              width: 25px;
+              background-color: pink;
+              border-radius: 50%;
+              display: inline-block;
+            }
+          }
+        }
+        .car-run {
+          z-index: -199;
+          position: absolute;
+          left: 0px;
+          top: 40px;
+          margin-top: 149px;
+          animation: carmoving 5s infinite ;
+        }
+        @keyframes carmoving {
+          0% { left: 10px;  }
+          100% { left: 1100px; }
+        }
+      }
+    }
+  }
+}
+// .........MEDIA QUERIES............ 
+  // ...........Media Query ........
+  // ...........MOBILE RESP ........
+  @media screen and (min-width: 320px) and (max-width: 480px){
+    
+.fixed-button{
+  .btn-fix{
+    right:-30px;
+  }
+}
+    .container-fluid {
+      .carousel {
+        .carousel-inner {
+          .carousel-item {
+            .banner_headingone {
+              top: 20px;
+              left: 100px;
+              font-size: 10px;
+            }
+            .banner_headingtwo {
+              bottom: 40px;
+              left: 50px;
+              font-size: 10px;
+            }
+            .vedio-sizes {
+              max-width: 100% !important;
+              height: 250px !important;
+            
+            }
+            img {
+              height: 250px;
+            }
+          }
+        }
+      }
+    }
+.car-services {
+  .container-fluid {
+    .row {
+      .book {
+        background-image: none;
+        background-color: blue !important;
+        h5 {
+          padding-left: 0rem;
+          font-size: 18px;
+        }
+        p {
+          padding-left: 0rem;
+        }
+        .booknow {
+          margin: 10px 5px;
+        }
+      }
+    }
+  }
+}
+.container {
+  .carousel-cell {
+    margin-right:10px;
+    width: 100px !important;
+    img {
+      margin-top: 2rem;
+      width: 70px !important;
+      height: 40px !important;
+      padding-left: 1rem;
+    }
+  }
+}
+.All-services{
+  h4{
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+
+  span{
+    img{
+      width: 50px;
+      height: 50px;
+    }
+  } 
+  }
+}
+.about {
+  .container {
+      h4 {
+        font-size: 14px;
+      }
+      .row{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .about-img {
+              img {
+                  top: 1px;
+                  right: 10px;
+              }
+              .orange1 {
+                  img {
+                      position: absolute;
+                      left: -40px;
+                      top: 9px;
+                  }
+              }
+              .dotted {
+                  img {
+                      position: absolute;
+                      left: -100px;
+                      top: 550px;
+                  }
+              }
+              .off-org {
+                  img {
+                      right: 30px;
+                      top: 150px;
+                      transform: rotate(40deg);
+                  }
+              }
+          }
+          .about-text{
+            margin-top: 20rem;
+          }
+      }
+
+  }
+} 
+.car-run {
+  z-index: -199;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  margin-top: 149px;
+  animation: carmoving 5s infinite ;
+}
+@keyframes carmoving {
+  0% { top: 10px !important;  }
+  100% { bottom: 1000px !important; }
+}
+// .............Services styles ................ 
+.services{
+  .container{
+      .automotive{
+          padding-top: 1rem;
+          h4{
+              font-size: 30px; 
+          }
+      }
+      .row{
+        text-align: center;
+        padding-top: 1rem;
+          .service-img1{
+              margin-top: 2rem;
+              margin-left: 4rem;
+              text-align: center;
+          }
+          .service-img2{
+            margin-left: 4rem;
+            margin-top: 2rem;
+              text-align: center;
+              img{
+                  margin-top: 1.5rem;
+              }
+          }
+          .service-text{
+              text-align: center;
+              font-size: 13px;
+              margin-bottom: 1rem;
+              margin-top: 1rem;
+          }
+          button{
+              margin-left: 3px;
+          }
+      }
+  }
+} 
+// .................Certification styles ............
+.affiliates {
+  .container {
+    .automotive {
+      padding-top: 1rem;
+      h4 {
+ font-size: 20px;
+      }
+    }
+    .row{
+      text-align: center;
+    }
+    .about-HTech {
+      .car-animation {
+        position: relative;
+        .row {
+          .points {
+            left: 70px;
+            top: -35px;
+            .circle1 {
+              top: 12px;
+              left: -30px;
+              right: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+  }
+  // .............Tablet..................... 
+  @media screen and (min-width: 481px) and (max-width: 768px){
+    .car-run {
+      z-index: -199;
+      position: absolute;
+      left: 0px;
+      top: 40px;
+      margin-top: 149px;
+      animation: carmoving 1s infinite ;
+    }
+    @keyframes carmoving {
+      0% { left: 10px;  }
+      100% { left:500px; }
+    }
+    .container-fluid {
+      .carousel {
+        .carousel-inner {
+          .carousel-item {
+            .banner_headingone {
+              top: 20px;
+              left: 250px;
+              font-size: 30px;
+            }
+            .banner_headingtwo {
+              bottom: 40px;
+              left: 200px;
+              font-size: 18px;
+            }
+            .vedio-sizes {
+              max-width: 100% !important;
+              height: 350px !important;
+            
+            }
+            img {
+              height: 350px;
+            }
+          }
+        }
+      }
+    }
+.car-services {
+  .container-fluid {
+    .row {
+      .book {
+        background-image: none;
+        background-color: blue !important;
+        h5 {
+          padding-left: 0rem;
+          font-size: 18px;
+        }
+        p {
+          padding-left: 0rem;
+        }
+        .booknow {
+          margin: 10px 5px;
+        }
+      }
+    }
+  }
+}
+.container {
+  .carousel-cell {
+    margin-right:10px;
+    width: 100px !important;
+    img {
+      margin-top: 2rem;
+      width: 100px !important;
+      height: 60px !important;
+      padding-left: 1rem;
+    }
+  }
+}
+.All-services{
+  h4{
+    font-size: 18px;
+  span{
+    img{
+      width: 100px;
+      height: 100px;
+    }
+  } 
+  }
+}
+.about {
+  .container {
+      h4 {
+        font-size: 14px;
+      }
+      .row{
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        .about-img {
+              img {
+                  top: 1px;
+                  right: 10px;
+              }
+              .orange1 {
+                  img {
+                      position: absolute;
+                      left: -40px;
+                      top: 9px;
+                  }
+              }
+              .dotted {
+                  img {
+                      position: absolute;
+                      left: -100px;
+                      top: 550px;
+                  }
+              }
+              .off-org {
+                  img {
+                      right: 30px;
+                      top: 150px;
+                      transform: rotate(40deg);
+                  }
+              }
+          }
+          .about-text{
+            margin-top: 0rem;
+          }
+      }
+
+  }
+} 
+// .............Services styles ................ 
+.services{
+  .container{
+      .automotive{
+          padding-top: 1rem;
+          h4{
+              font-size: 30px; 
+          }
+      }
+      .row{
+        text-align: center;
+        padding-top: 1rem;
+        .col-md-2{
+         width: 50% ;
+      }
+          .service-img1{
+               margin-top: 2rem;
+               margin-left: 4rem;
+              text-align: center;
+          }
+          .service-img2{
+            margin-left: 4rem;
+            margin-top: 2rem;
+              text-align: center;
+              img{
+                  margin-top: 1.5rem;
+              }
+          }
+          .service-text{
+              text-align: center;
+              font-size: 13px;
+              margin-bottom: 1rem;
+              margin-top: 1rem;
+          }
+          button{
+              margin-left: 3px;
+          }
+      }
+  }
+} 
+// .................Certification styles ............
+.affiliates {
+  .container {
+    .automotive {
+      padding-top: 1rem;
+      h4 {
+      font-size: 20px;
+      }
+    }
+    .row{
+      text-align: center;
+    }
+    .about-HTech {
+      .car-animation {
+        position: relative;
+        .row {
+          .points {
+            left: 32px;
+            top: -35px;
+            .circle1 {
+              top: 12px;
+              left: -30px;
+              right: 100px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+  }
+// ...............laptop................. 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+  .container-fluid {
+    .carousel {
+      .carousel-inner {
+        .carousel-item {
+          .banner_headingone {
+            top: 20px;
+            left: 100px;
+            font-size: 10px;
+          }
+          .banner_headingtwo {
+            bottom: 40px;
+            left: 50px;
+            font-size: 10px;
+          }
+          .vedio-sizes {
+            max-width: 100% !important;
+            height: 350px !important;
+          
+          }
+          img {
+            height: 350px;
+          }
+        }
+      }
+    }
+  }
+.car-services {
+.container-fluid {
+  .row {
+    .book {
+      h5 {
+        padding-left: 0rem;
+        font-size: 18px;
+      }
+      p {
+        padding-left: 0rem;
+      }
+      .booknow {
+        margin: 10px 5px;
+      }
+    }
+  }
+}
+}
+.container {
+.carousel-cell {
+  margin-right:10px;
+  width: 100px !important;
+  img {
+    margin-top: 2rem;
+    width: 70px !important;
+    height: 40px !important;
+    padding-left: 1rem;
+  }
+}
+}
+.All-services{
+h4{
+  font-size: 14px;
+span{
+  img{
+    width: 50px;
+    height: 50px;
+  }
+} 
+}
+}
+.about {
+.container {
+    h4 {
+      font-size: 14px;
+    }
+    .row{
+      padding-top: 2rem;
+      padding-bottom: 2rem;
+      .about-img {
+            img {
+                top: 1px;
+                right: 10px;
+            }
+            .orange1 {
+                img {
+                    position: absolute;
+                    left: -40px;
+                    top: 9px;
+                }
+            }
+            .dotted {
+                img {
+                    position: absolute;
+                    left: -100px;
+                    top: 550px;
+                }
+            }
+            .off-org {
+                img {
+                    right: 30px;
+                    top: 150px;
+                    transform: rotate(40deg);
+                }
+            }
+        }
+        .about-text{
+          margin-top: 20rem;
+        }
+    }
+}
+} 
+// .............Services styles ................ 
+.services{
+  .container{
+      .row{
+          padding-top: 4rem;
+          padding-bottom: 1rem;
+          .service-img1{
+              height: 150px;
+              width: 150px;
+              img{
+                  width: 120px;
+                  height: 120px;
+              }
+          }
+          .service-img2{
+              height: 150px;
+              width: 150px;
+              img{
+                  width: 120px;
+                  height: 120px;
+              }
+          }
+          .service-text{
+              text-align: center;
+              font-size: 13px;
+              margin-bottom: 1rem;
+              margin-top: 1rem;
+          }
+      }
+  }
+}
+// .................Certification styles ............
+.affiliates {
+.container {
+  .automotive {
+    padding-top: 1rem;
+    h4 {
+font-size: 20px;
+    }
+  }
+  .row{
+    text-align: center;
+  }
+  .about-HTech {
+    .car-animation {
+      position: relative;
+      .row {
+        .points {
+          left: 70px;
+          top: -35px;
+          .circle1 {
+            top: 12px;
+            left: -30px;
+            right: 100px;
+          }
+        }
+      }
+    }
+  }
+}
+}
+}

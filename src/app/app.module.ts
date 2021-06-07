@@ -1,16 +1,26 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
-import { AppRoutingModule } from './app-routing.module';
+import { AppRoutingModule, routingComponents } from './app-routing.module';
 import { AppComponent } from './app.component';
-
+import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { from } from 'rxjs';
+import { FooterComponent } from './footer/footer.component';
+import { NavigationComponent } from './navigation/navigation.component';
+import { AddModelComponent } from './add-model/add-model.component';
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    NavigationComponent,
+    routingComponents,
+    AddModelComponent,
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IvyCarouselModule
   ],
   providers: [],
   bootstrap: [AppComponent]

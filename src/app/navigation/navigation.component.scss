@@ -1,0 +1,204 @@
+
+.icons-bar {
+    background-color: #484646;
+    color: white;
+    .container {
+      .row {
+        color: white;
+        .phone-number {
+          margin: 17px;
+          text-align: start;
+          font-size: 18px;
+          padding: 0px 15px;
+          span {
+            font-size: 18px;
+          }
+        }
+        .socail-icons {
+          margin-top: 10px;
+          text-align: end;
+          a {
+            color: white;
+            i {
+              margin: 0px 10px;
+            }
+            img {
+              width: 16px;
+              height: 16px;
+              text-align: center;
+              margin: 0px 10px;
+            }
+          }
+          .top-btn {
+            background-color: #0c15bb;
+            color: #fff;
+            font-size: 12px !important;
+            margin-left: 25px;
+            padding: 5px;
+            text-transform: capitalize;
+            border: none;
+            border-radius: 3px;
+          }
+        }
+      }
+    }
+  }
+  .menu-bar {
+    height: 70px;
+    .container {
+      .navbar {
+        padding-bottom: 20px !important;
+        .navbar-brand {
+          padding-top:0px;
+          img {
+            height: 70px;
+            padding-left: 20px;
+            padding-bottom: 10px;
+          }
+        }
+        .navbar-nav {
+          padding-left: 24rem;
+          padding-bottom: 16px;
+          .nav-item {
+            padding-left: 17px;
+            a.active{
+              color: blue;
+            }
+            .nav-link {
+              color: #000000;
+              font-weight: bold;
+              padding: 0px;
+              margin: 0px;
+              position: relative;
+              &:hover{
+                //color: blue;
+                
+              }
+              &:after{
+                position: absolute;
+                bottom: -13px;
+                left: 0;
+                right: 0;
+                margin: auto;
+                background-color: #0d5aeb;
+                color: transparent;
+                width: 0%;
+                content: '.';
+                height: 2px;
+              }
+              &:hover::after{
+                width: 100%;
+                transition: all .2s;
+  
+              }
+            }
+            //    color: black !important;
+            &:nth-child(1) {
+              a {
+                //  color: #1b18db !important;
+              }
+              .current{
+                // color: #0c15bb !important;
+              
+              }
+            }
+            .btn1 {
+              border: none;
+              color: white;
+              background-color: rgb(248, 4, 4);
+              padding: 5px 10px;
+              animation: glowing .6s infinite;
+              &:hover {
+                background-color: rgb(255, 6, 6);
+              }
+            }
+            .btn2 {
+              background-color: #0c15bb;
+              text-transform: none;
+              color: #fff;
+            }
+          }
+        }
+        @keyframes glowing {
+          0% { background-color: #000000;  }
+          100% { background-color: #fa0000; }
+        }
+      }
+    }
+  }
+  
+  //   .............Header styles.............. 
+  // ...........Media Query ........
+  // ...........MOBILE RESP ........
+  @media screen and (min-width: 320px) and (max-width: 480px){
+  .phone-number {
+    padding: 0px;
+    margin: 0px !important;
+      i{
+        font-size: 12px;
+      }
+     .num{
+      font-size: 10px !important;
+     }
+  }
+  .align-set{
+    .col-7{
+      width: 70%;
+      text-align: center;
+      margin-left: 6rem;
+    }
+  }
+  .socail-icons{
+    padding-top: .1rem;
+    a{
+      padding: 0px;
+      margin: 0px;
+      i{
+        font-size: 8px;
+        margin: 0px;
+      }
+      img{
+        width: 10px;
+        height: 10px;
+      }
+    }
+    .top-btn{
+     margin: 10px 3px;
+     font-size: 5px ;
+    }
+  }
+}
+// .............Tablet..................... 
+@media screen and (min-width: 481px) and (max-width: 768px){
+  .phone-number {
+      i{
+        font-size: 13px;
+      }
+     .num{
+      font-size: 11px !important;
+     }
+  }
+  .socail-icons{
+    padding-top: .1rem;
+
+  }
+}
+
+// ...............loptop................. 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .phone-number {
+      i{
+        font-size: 16px;
+      }
+     .num{
+      font-size: 16px !important;
+     }
+  }
+  .socail-icons{
+    padding-top: .1rem;
+ 
+  }
+  .navbar-nav {
+    padding-left: 3rem !important;
+  }
+}

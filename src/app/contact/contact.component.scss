@@ -1,0 +1,393 @@
+.fixed-button{
+  position: relative;
+  .btn-fix{
+    position: absolute;
+    top: 320px;
+    right:-75px;
+    z-index: 1000;
+    position: fixed !important;
+    transform: rotate(270deg);
+    padding: .5rem 1.6rem;
+  }
+}
+// ...........fixed button styles........ 
+.contact{
+  .banner{
+    position: relative;
+    padding: 0px !important;
+    margin: 0px !important;
+
+    .service-title{
+        h1{
+          color: #fff;
+          font-family: 'Times New Roman', Times, serif;
+
+          font-weight: 600;
+          position: absolute;
+          margin-left: 20%;
+          top: 300px;
+          font-size: 2.5rem;
+          word-spacing: .5rem;
+        }
+    }
+    img{
+        width: 100%;
+        height:650px;
+        object-fit: fill;
+    }
+    .img-25y{
+        width: 150px;
+        height:150px;
+        top: 450px;
+        position: absolute;
+        left: 150px;
+
+    }
+}
+    // ............................ 
+    .car-services {
+        .container-fluid {
+          padding: 0px !important;
+          margin: 0px !important;
+          .bg-color {
+            // background: #323AD1;
+            margin: 0px !important;
+            padding: 0px !important;
+          }
+          .row {
+            .book {
+              color: white;
+              background-image: url("../../assets/hitech_images/images/BLUE\ STRIP.png");
+              background-position: center;
+              background-repeat: no-repeat;
+              background-size: 100% 100%;
+              padding-top: 1rem;
+              h5 {
+                padding-left: 4rem;
+                font-family: 'Times New Roman', Times, serif;
+
+                font-weight: 400;
+              }
+              p {
+                padding-left: 4rem;
+                font-family: 'Poppins', sans-serif;
+              }
+              .booknow {
+                padding: 5px 10px;
+                background-color: #ffffff;
+                color: black;
+              }
+            }
+          }
+        }
+      }
+     .contact-us{
+      .circle-rotate{
+        position: relative;
+        img{
+          position: absolute;
+          top: 100px;
+          width:108px ;
+          height:128px ;
+          
+          animation: mymove 10s infinite;
+        }
+        .rotate {
+        }
+        
+        @keyframes mymove {
+          50% {transform: rotate(360deg);}
+        }
+      }
+      .crystal{
+        position: relative;
+        img{
+          animation: rotation  infinite;
+          position: absolute;
+          top: 400px;
+          width:108px ;
+          height:128px ;
+          animation: mymove 10s infinite;
+    
+        }
+      }
+       .container{
+            h4{
+              color: #323ad1;
+              margin-top: 25px;
+              font-family: 'Times New Roman', Times, serif;
+
+              font-size: 20px !important;
+              font-weight: 600;
+             }
+             p{
+              font-family: 'Poppins', sans-serif;
+              font-size: 14px;
+              line-height: 25px;
+             }
+       }
+       .form-details{
+         .container{
+           #contact{
+             h4{
+              color: #dc3545!important;
+              font-weight: 700!important;
+              text-align: center!important;
+              font-family: 'Times New Roman', Times, serif;
+
+             }
+             .settings{
+              .line1{
+                  margin-left: 43%;
+                  border: 1px solid grey;
+                  border-radius: 5px;
+                  margin-bottom: 2px;
+                  width: 5%;
+                  margin-top: -10px;
+                  left: 42%;
+                  display: inline-block;
+              }
+              .line2{
+                  border: 1px solid grey;
+                  border-radius: 5px;
+                  margin-bottom: 2px;
+                  width: 5%;
+                  top: -5px;
+                  left: 43%;
+                  display: inline-block;
+                  margin-left: 0%;
+              }
+          }
+          .form-group{
+            margin-bottom: 1rem;
+          }
+          .form-control{
+            display: block;
+            width: 100%;
+            padding: .5rem .75rem;
+            font-size: 1rem;
+          }
+           }
+         }
+       }
+     } 
+     .contact-us-text{
+       .container{
+         .contact-today{
+           h4{
+            color: #323ad1;
+            margin-top: 20px;
+            font-family: 'Times New Roman', Times, serif;
+
+            font-size: 25px !important;
+           }
+         }
+         .local-auto{
+           h4{
+            color: #323ad1;
+            margin-top: 20px;
+            font-family: 'Times New Roman', Times, serif;
+
+            font-size: 25px !important;
+           }
+           p{
+            margin-left: 100px;
+            margin-right: 100px;
+            font-family: 'Poppins', sans-serif;
+             font-size: 14px;
+              line-height: 25px;
+           }
+         }
+       }
+     }
+}
+
+
+// .........MEDIA QUERIES............ 
+  // ...........Media Query ........
+  // ...........MOBILE RESP ........
+  @media screen and (min-width: 320px) and (max-width: 480px){
+    .fixed-button{
+      .btn-fix{
+        right:-60px;
+      }
+    }
+    .contact{
+      .banner{
+        .service-title{
+         h1{
+          font-size: 8px;
+          top: 100px;
+          left: 1px;
+         }
+        }
+        img{
+          width: 100%;
+          height: 220px !important;
+        }
+        .img-25y{
+          width: 50px;
+          height: 50px !important;
+          top: 150px;
+          left: 10px;
+        }
+      }
+      .car-services {
+        .container-fluid {
+          .row {
+            .book {
+              background-image: none;
+              background-color: blue !important;
+              h5 {
+                padding-left: 0rem;
+                font-size: 14px;
+              }
+              p {
+                padding-left: 0rem;
+              }
+              .booknow {
+                margin: 10px 5px;
+              }
+            }
+          }
+        }
+      }
+      .contact-us{
+        .container{
+          h4{
+            font-size: 16px;
+          }
+        }
+      }
+      .contact-us-text{
+        .container{
+          .local-auto{
+           p{
+            margin: 0px;
+            padding-bottom: 1rem;
+           }
+          }
+        }
+      }
+
+    }
+}
+      
+      // .............Tablet..................... 
+      @media screen and (min-width: 481px) and (max-width: 768px){
+        .contact{
+          .banner{
+            .service-title{
+             h1{
+              font-size: 18px;
+              top: 100px;
+              left: 1px;
+             }
+            }
+            img{
+              width: 100%;
+              height: 220px !important;
+            }
+            .img-25y{
+              width: 50px;
+              height: 50px !important;
+              top: 150px;
+              left: 10px;
+            }
+          }
+          .car-services {
+            .container-fluid {
+              .row {
+                .book {
+                  background-image: none;
+                  background-color: blue !important;
+                  h5 {
+                    padding-left: 0rem;
+                    font-size: 14px;
+                  }
+                  p {
+                    padding-left: 0rem;
+                  }
+                  .booknow {
+                    margin: 10px 5px;
+                  }
+                }
+              }
+            }
+          }
+          .contact-us{
+            .container{
+              h4{
+                font-size: 16px;
+              }
+            }
+          }
+          .contact-us-text{
+            .container{
+              .local-auto{
+               p{
+                margin: 0px;
+                padding-bottom: 1rem;
+               }
+              }
+            }
+          }
+    
+        }
+      }
+    // ...............laptop................. 
+    @media screen and (min-width: 769px) and (max-width: 1024px){
+      .contact{
+        .banner{
+          .service-title{
+           h1{
+            font-size: 8px;
+            top: 100px;
+            left: 1px;
+           }
+          }
+          img{
+            width: 100%;
+            height: 450px !important;
+          }
+        }
+        .car-services {
+          .container-fluid {
+            .row {
+              .book {
+                background-image: none;
+                background-color: blue !important;
+                h5 {
+                  padding-left: 0rem;
+                  font-size: 14px;
+                }
+                p {
+                  padding-left: 0rem;
+                }
+                .booknow {
+                  margin: 10px 5px;
+                }
+              }
+            }
+          }
+        }
+        .contact-us{
+          .container{
+            h4{
+              font-size: 16px;
+            }
+          }
+        }
+        .contact-us-text{
+          .container{
+            .local-auto{
+             p{
+              margin: 0px;
+              padding-bottom: 1rem;
+             }
+            }
+          }
+        }
+  
+      }
+    }

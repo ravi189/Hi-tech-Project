@@ -1,0 +1,25 @@
+.footer {
+  background-color: black;
+  color: white;
+}
+.footer .container {
+  padding: 1rem 0.5rem;
+}
+.footer .container .row .footer-logo p i {
+  margin-right: 10px;
+}
+.footer .container .row .footer-logo .socail-icons a {
+  color: white;
+  padding-left: 15px;
+}
+.footer .container .row .footer-logo .socail-icons a img {
+  width: 17px;
+  height: 16px;
+}
+.footer .container .row .map {
+  height: 60%;
+  width: 100%;
+}
+.footer .container .manteiologo {
+  text-align: end;
+}

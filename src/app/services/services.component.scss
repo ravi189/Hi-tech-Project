@@ -1,0 +1,298 @@
+.fixed-button{
+  position: relative;
+  .btn-fix{
+    position: absolute;
+    top: 320px;
+    right:-75px;
+    z-index: 1000;
+    position: fixed !important;
+    transform: rotate(270deg);
+    padding: .5rem 1.6rem;
+  }
+}
+// ...........fixed button styles........ 
+.services{
+    .banner{
+        position: relative;
+        padding: 0px !important;
+        margin: 0px !important;
+        .service-title{
+            color: #fff;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight:bolder;
+            position: absolute;
+            margin-left: 20%;
+            top: 300px;
+            font-size: 3vw;
+        }
+        img{
+            width: 100%;
+            height:700px;
+            object-fit: fill;
+        }
+    }
+    //   ...........Our brands Styles.............. 
+.car-services {
+    .container-fluid {
+      padding: 0px !important;
+      margin: 0px !important;
+      .bg-color {
+        // background: #323AD1;
+        margin: 0px !important;
+        padding: 0px !important;
+      }
+      .row {
+        .book {
+          color: white;
+          background-image: url("../../assets/hitech_images/images/BLUE\ STRIP.png");
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100% 100%;
+          padding-top: 1rem;
+          h5 {
+            padding-left: 4rem;           
+            font-family: 'Times New Roman', Times, serif;
+          }
+          p {
+            padding-left: 4rem;
+            font-family: 'Poppins', sans-serif;
+
+          }
+          .booknow {
+            padding: 5px 10px;
+            background-color: #ffffff;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+  .text-services{
+      .circle-rotate{
+        position: relative;
+        img{
+          position: absolute;
+          top: 200px;
+          width:108px ;
+          height:128px ;
+          animation: mymove 10s infinite;
+        }
+        .rotate {
+        }
+        
+        @keyframes mymove {
+          50% {transform: rotate(360deg);}
+        }
+      }
+      .crystal{
+        position: relative;
+        img{
+          animation: rotation  infinite;
+          position: absolute;
+          top: 800px;
+          width:108px ;
+          height:128px ;
+          animation: mymove 10s infinite;
+
+        }
+      }
+      .text-content{
+        padding: 0px 150px;
+    
+        h4{ 
+            color: #323ad1;
+            margin-top: 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 25px !important;
+            font-weight: 600;
+          }
+          ul {
+              list-style: none;
+              li{
+                &::before{
+                content: "\2022";
+                color:blue;
+                font-weight: bold;
+                display: inline-block; 
+                width: 1em;
+                margin-left: -1em;
+              }
+          }
+        }
+      }
+
+  }
+  .contact-us{
+    background-image: url('../../assets/hitech_images/images/pattern.png');
+    padding: 15px;
+    border: 2px solid grey;
+    .auto-repair{
+      h4{
+        color: #323ad1;
+        font-family: 'Times New Roman', Times, serif;
+         font-weight: 600;
+        font-size: 25px !important;
+        padding-top: 1rem;
+      }
+      .settings{
+        .line1{
+            margin-left: 43%;
+            border: 1px solid grey;
+            border-radius: 5px;
+            margin-bottom: 2px;
+            width: 5%;
+            margin-top: -10px;
+            left: 42%;
+            display: inline-block;
+        }
+        .line2{
+            border: 1px solid grey;
+            border-radius: 5px;
+            margin-bottom: 2px;
+            width: 5%;
+            top: -5px;
+            left: 43%;
+            display: inline-block;
+            margin-left: 0%;
+        }
+    }
+    p{
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+      line-height: 25px;
+      // padding-top: 2rem;
+    }
+    } 
+  }
+
+}
+
+
+// .........MEDIA QUERIES............ 
+  // ...........Media Query ........
+  // ...........MOBILE RESP ........
+  @media screen and (min-width: 320px) and (max-width: 480px){
+        
+.fixed-button{
+  .btn-fix{
+    right:-60px;
+  }
+}
+.services{
+  .banner{
+    .service-title{
+      font-size: 16px;
+      top: 100px;
+    }
+    img{
+      width: 100%;
+      height: 220px !important;
+    }
+  }
+  .car-services {
+    .container-fluid {
+      .row {
+        .book {
+          background-image: none;
+          background-color: blue !important;
+          h5 {
+            padding-left: 0rem;
+            font-size: 14px;
+          }
+          p {
+            padding-left: 0rem;
+          }
+          .booknow {
+            margin: 10px 5px;
+          }
+        }
+      }
+    }
+  }
+  .text-services{
+    .text-content{
+     padding: 30px;
+    }
+  }
+}
+  }
+  // .............Tablet..................... 
+  @media screen and (min-width: 481px) and (max-width: 768px){
+    .services{
+      .banner{
+        .service-title{
+          font-size: 20px;
+          top: 100px;
+        }
+        img{
+          width: 100%;
+          height: 220px !important;
+        }
+      }
+      .car-services {
+        .container-fluid {
+          .row {
+            .book {
+              background-image: none;
+              background-color: blue !important;
+              h5 {
+                padding-left: 0rem;
+                font-size: 14px;
+              }
+              p {
+                padding-left: 0rem;
+              }
+              .booknow {
+                margin: 10px 5px;
+              }
+            }
+          }
+        }
+      }
+      .text-services{
+        .text-content{
+         padding: 30px;
+        }
+      }
+    }
+  }
+// ...............laptop................. 
+@media screen and (min-width: 769px) and (max-width: 1024px){
+  .services{
+    .banner{
+      .service-title{
+        font-size: 36px;
+        top: 100px;
+      }
+      img{
+        width: 100%;
+        height: 450px !important;
+      }
+    }
+    .car-services {
+      .container-fluid {
+        .row {
+          .book {
+            background-image: none;
+            background-color: blue !important;
+            h5 {
+              padding-left: 0rem;
+              font-size: 14px;
+            }
+            p {
+              padding-left: 0rem;
+            }
+            .booknow {
+              margin: 10px 5px;
+            }
+          }
+        }
+      }
+    }
+    .text-services{
+      .text-content{
+       padding: 30px;
+      }
+    }
+  }
+}

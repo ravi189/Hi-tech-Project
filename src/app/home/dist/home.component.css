@@ -1,0 +1,385 @@
+.container-fluid {
+  background-color: black;
+  width: 100%;
+  padding: 0px !important;
+}
+.container-fluid .carousel .carousel-inner .carousel-item {
+  position: relative;
+}
+.container-fluid .carousel .carousel-inner .carousel-item .banner_headingone {
+  color: white;
+  position: absolute;
+  top: 20px;
+  left: 450px;
+  font-size: 60px;
+  font-family: "Calistoga";
+  font-weight: 600;
+}
+.container-fluid .carousel .carousel-inner .carousel-item .banner_headingtwo {
+  color: white;
+  position: absolute;
+  bottom: 80px;
+  left: 350px;
+  font-size: 40px;
+  font-family: "Calistoga";
+  font-weight: 600;
+}
+.container-fluid .carousel .carousel-inner .carousel-item .vedio-sizes {
+  max-width: 100% !important;
+  height: 650px !important;
+}
+.container-fluid .carousel .carousel-inner .carousel-item .vedio-sizes video {
+  object-fit: fill;
+}
+.container-fluid .carousel .carousel-inner .carousel-item img {
+  height: 650px;
+}
+
+.car-services .container-fluid {
+  padding: 0px !important;
+  margin: 0px !important;
+}
+.car-services .container-fluid .bg-color {
+  margin: 0px !important;
+  padding: 0px !important;
+}
+.car-services .container-fluid .row .book {
+  color: white;
+  background-image: url("../../assets/hitech_images/images/BLUE STRIP.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  padding-top: 1rem;
+}
+.car-services .container-fluid .row .book h5 {
+  padding-left: 4rem;
+  font-family: "Roboto", sans-serif;
+}
+.car-services .container-fluid .row .book p {
+  padding-left: 4rem;
+  font-family: "Poppins" !important;
+}
+.car-services .container-fluid .row .book .booknow {
+  padding: 5px 10px;
+  background-color: #ffffff;
+  color: black;
+}
+
+.All-services h4 {
+  margin-top: 2rem;
+  font-weight: 700;
+  font-family: "Calistoga";
+  font-size: 2.5vw;
+}
+.All-services h4 span {
+  position: relative;
+}
+.All-services h4 span img {
+  width: 130px;
+  height: 112px;
+  position: absolute;
+  top: 5px;
+}
+.All-services .settings .line1 {
+  margin-left: 43%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  margin-top: -10px;
+  left: 42%;
+  display: inline-block;
+}
+.All-services .settings .line2 {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  top: -5px;
+  left: 43%;
+  display: inline-block;
+  margin-left: 0%;
+}
+.All-services .carousel .carousel-inner .carousel-item img {
+  width: 10px;
+  height: auto;
+}
+.All-services .container .carousel-cell {
+  margin-top: 2rem;
+  margin-right: 2rem;
+}
+.All-services .container .carousel-cell img {
+  width: 175px;
+  height: 135px;
+  padding-left: 1rem;
+}
+
+.exp {
+  background-color: #CBE0FB;
+}
+.exp .container {
+  padding: 10px 10px;
+}
+.exp .container .automotive h4 {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-family: "Calistoga";
+  font-size: 2.5VW;
+}
+.exp .container .automotive .settings .line1 {
+  margin-left: 43%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  margin-top: -10px;
+  left: 42%;
+  display: inline-block;
+}
+.exp .container .automotive .settings .line2 {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  top: -5px;
+  left: 43%;
+  display: inline-block;
+  margin-left: 0%;
+}
+.exp .container .row .car1 {
+  width: 100%;
+  border: 2px dashed black;
+  padding: 5px;
+  border-radius: 5px;
+}
+.exp .container .row .car2 {
+  width: 100%;
+  border: 2px dashed black;
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5rem;
+}
+
+.about .container h4 {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-family: "Calistoga";
+  font-size: 2.5vw;
+}
+.about .container .settings .line1 {
+  margin-left: 43%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  margin-top: -10px;
+  left: 42%;
+  display: inline-block;
+}
+.about .container .settings .line2 {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  top: -5px;
+  left: 43%;
+  display: inline-block;
+  margin-left: 0%;
+}
+.about .container .row {
+  padding-bottom: 15rem;
+}
+.about .container .row .about-img {
+  position: relative;
+}
+.about .container .row .about-img img {
+  position: absolute;
+  top: -80px;
+  right: 50px;
+}
+.about .container .row .about-img .orange1 img {
+  position: absolute;
+  left: 0px;
+  top: 50px;
+}
+.about .container .row .about-img .dotted img {
+  position: absolute;
+  left: -100px;
+  top: 550px;
+}
+.about .container .row .about-img .off-org img {
+  position: absolute;
+  right: 130px;
+  top: 280px;
+  transform: rotate(40deg);
+}
+
+.services {
+  background-color: #012dd9;
+  color: white;
+}
+.services .container .automotive {
+  padding-top: 1rem;
+}
+.services .container .automotive h4 {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-family: "Calistoga";
+  font-size: 2.5VW;
+}
+.services .container .automotive .settings .line1 {
+  margin-left: 43%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  margin-top: -10px;
+  left: 42%;
+  display: inline-block;
+}
+.services .container .automotive .settings .line2 {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  top: -5px;
+  left: 43%;
+  display: inline-block;
+  margin-left: 0%;
+}
+.services .container .row {
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+.services .container .row .service-img1 {
+  margin-top: 190px;
+  background-color: #FFFFFF;
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+  text-align: center;
+}
+.services .container .row .service-img1 img {
+  width: 120px;
+  height: 120px;
+  margin-top: 1.5rem;
+}
+.services .container .row .service-img2 {
+  background-color: #FFFFFF;
+  height: 170px;
+  width: 170px;
+  border-radius: 10px;
+  text-align: center;
+}
+.services .container .row .service-img2 img {
+  width: 120px;
+  height: 120px;
+  margin-top: 1.5rem;
+}
+.services .container .row .service-text {
+  text-align: center;
+  font-size: 13px;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.services .container .row button {
+  text-decoration: none;
+  text-transform: uppercase;
+  border-radius: 10px;
+  margin-top: -3%;
+  padding: 7px 25px;
+  margin-left: 35px;
+  left: 10%;
+  font-size: 10px;
+  background-color: #FF3547 !important;
+}
+.services .container .row button a {
+  text-decoration-line: none;
+  font-family: sans-serif;
+}
+
+.affiliates .container .automotive {
+  padding-top: 1rem;
+}
+.affiliates .container .automotive h4 {
+  margin-top: 1rem;
+  font-weight: 700;
+  font-family: "Calistoga";
+  font-size: 2.5vw;
+}
+.affiliates .container .automotive .settings .line1 {
+  margin-left: 43%;
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  margin-top: -10px;
+  left: 42%;
+  display: inline-block;
+}
+.affiliates .container .automotive .settings .line2 {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-bottom: 2px;
+  width: 5%;
+  top: -5px;
+  left: 43%;
+  display: inline-block;
+  margin-left: 0%;
+}
+.affiliates .container .about-HTech h4 {
+  color: #323ad1;
+  font-family: "Calistoga";
+  font-size: 25px !important;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.affiliates .container .about-HTech p {
+  font-size: 14px;
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+.affiliates .container .about-HTech .car-animation {
+  position: relative;
+}
+.affiliates .container .about-HTech .car-animation .row {
+  text-align: center;
+  margin-top: 7rem;
+}
+.affiliates .container .about-HTech .car-animation .row .newYork .year {
+  color: #e41539;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+.affiliates .container .about-HTech .car-animation .row .points {
+  position: relative;
+  border-color: pink;
+  width: 155px;
+  border: 1px dotted pink;
+  transform: rotate(90deg);
+  left: 135px;
+  top: -35px;
+  z-index: -199;
+}
+.affiliates .container .about-HTech .car-animation .row .points .circle1 {
+  position: absolute;
+  top: 12px;
+  left: -30px;
+  right: 100px;
+  height: 25px;
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 14px;
+  width: 25px;
+  background-color: pink;
+  border-radius: 50%;
+  display: inline-block;
+}
+.affiliates .container .about-HTech .car-animation .car-run {
+  z-index: -199;
+  position: absolute;
+  left: 0px;
+  top: 40px;
+  margin-top: 149px;
+}
